@@ -1,0 +1,31 @@
+#include		"../headers/Game.hh"
+
+Hole::Hole()
+{
+
+}
+
+Hole::~Hole()
+{
+
+}
+
+int	Hole::getX() const
+{
+  return (this->_x);
+}
+
+int	Hole::getY() const
+{
+  return (this->_y);
+}
+
+void	setX(int x)
+{
+  this->_x = x;
+}
+
+void	setY(int y)
+{
+  this->_y = y;
+}

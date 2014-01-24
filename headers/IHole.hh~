@@ -1,0 +1,10 @@
+#ifndef		__IHOLE_HH__
+#define		__IHOLE_HH__
+
+class		IHole
+{
+public:
+  virtual ~IHole(){}
+};
+
+#endif

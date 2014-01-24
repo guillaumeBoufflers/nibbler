@@ -1,0 +1,22 @@
+  // for (std::list<ISnake *>::const_reverse_iterator it = sList.rbegin(); it != sList.rend(); it++)
+  //   {
+  //     if (this->_cpt == 0)
+  // 	{
+  // 	  glMatrixMode(GL_MODELVIEW);
+  // 	  glLoadIdentity();
+  // 	  glTranslatef((*it)->getX(), (*it)->getY(), 0);
+  // 	  glBegin(GL_QUADS);
+  // 	  this->makeCarre(20, 20, 255, 0, 0);
+  // 	  glEnd();
+  // 	}
+  //     else
+  // 	{
+  // 	  glMatrixMode(GL_MODELVIEW);
+  // 	  glLoadIdentity();
+  // 	  glTranslatef((*it)->getX(), (*it)->getY(), 0);
+  // 	  glBegin(GL_QUADS);
+  // 	  this->makeCarre(20, 20, 255, 255, 255);
+  // 	  glEnd();
+  // 	}
+  //     this->_cpt++;
+  //   }
